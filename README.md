@@ -4,6 +4,7 @@
 Python + urllib2 + re 实时动态获取免费代理IP池工具包。之前使用的购买付费代理IP成本比较高，干脆写一个获取免费IP的库。原理就是写多个爬虫，执行脚本时候，爬取免费ip地址，验证后返回可以使用的list。
 
 
+
 # 爬取的免费ip地址来源
 
 - http://www.kuaidaili.com/free/inha/1
@@ -12,11 +13,13 @@ Python + urllib2 + re 实时动态获取免费代理IP池工具包。之前使�
 - http://www.nianshao.me
 
 
-# 依赖库
+# 环境和使用的库
 
+- pythoon 2.7
 - 打印库 cprint https://github.com/Pingze-github/cprint
 - 多线程 threading
 - 正则 re
+
 
 # 使用方法
 
