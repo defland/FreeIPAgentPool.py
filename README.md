@@ -14,9 +14,9 @@ Python+urllib2实时动态获取免费代理IP池工具包
 ```
 import FreeIPAgentPool as ipool  
 
-x = ipool.IpSpiders()
-y = x.get_ip() # 返回当前可用的免费IP list
-# print y
+ipool_obj = ipool.IpSpiders()
+free_list = ipool_obj.get_ip() # 返回当前可用的免费IP list
+# print free_list
 
 ```
 
